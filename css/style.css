@@ -14,6 +14,7 @@ html {
     display: flex;
     flex-direction: column;
     align-content: center;
+
     ;
 }
 
@@ -34,6 +35,8 @@ html {
     border-radius: 5px;
     border: 7px solid rgb(228, 155, 70);
     z-index: 0;
+
+
 }
 
 .right {
@@ -47,6 +50,9 @@ html {
 
 .right:hover {
     background-color: rgb(243, 174, 162);
+    transition-duration:1s;
+    transition-timing-function: linear;
+
 }
 
 .left {
@@ -64,6 +70,8 @@ html {
 
 .left:hover {
     background-color: rgb(243, 174, 162);
+    transition-duration:1s;
+    transition-timing-function: linear;
 }
 
 .arrows {
