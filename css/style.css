@@ -17,12 +17,21 @@ html {
 
     ;
 }
+@media(max-width:600px){
+    .slider{
+   margin: 20px;
+    }
+    }
+
+
 
 .item {
     max-width: 700px;
     display: none;
     position: absolute;
 }
+
+
 
 .item.active {
     display: block;
@@ -38,6 +47,11 @@ html {
 
 
 }
+@media(max-width:600px){
+    .image-item{
+    max-width: 400px;
+    }
+    }
 
 .right {
     width: 40px;
@@ -68,6 +82,13 @@ html {
     border: none;
 }
 
+@media(max-width:600px){
+    .left{
+margin-right:280px;
+
+    }
+}
+
 .left:hover {
     background-color: rgb(243, 174, 162);
     transition-duration:1s;
@@ -80,4 +101,10 @@ html {
     z-index: 1;
     position: fixed;
     margin-top: 200px;
+}
+
+@media(max-width:600px){
+    .arrows{
+margin-top:100px
+    }
 }
