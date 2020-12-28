@@ -19,7 +19,8 @@ html {
 }
 @media(max-width:600px){
     .slider{
-   margin: 20px;
+   margin: 20px 20px 20px 20px;
+
     }
     }
 
@@ -49,7 +50,7 @@ html {
 }
 @media(max-width:600px){
     .image-item{
-    max-width: 400px;
+    max-width: 350px;
     }
     }
 
@@ -84,7 +85,7 @@ html {
 
 @media(max-width:600px){
     .left{
-margin-right:280px;
+margin-right:225px;
 
     }
 }
